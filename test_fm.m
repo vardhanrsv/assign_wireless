@@ -1,3 +1,5 @@
+%% reference from RTL_SDR book
+
 offline          = input('type 0 for RTL-SDR 1 to use captured file(following Lab6 discriminator ');     % 0 = use RTL-SDR, 1 = import data
 rtlsdr_id        = '0';                          % stick ID
 if offline == 0
